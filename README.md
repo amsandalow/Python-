@@ -26,3 +26,8 @@ if dataset[10] > dataset[9] and dataset[10] > dataset[11]:
     print(f"Peak Detected: Value {dataset[10]} at index 10")
 if dataset[11] > dataset[10]:
     print(f"Peak Detected: Value {dataset[11]} at index 11")
+
+
+
+Since the maximum number of steps for $n=100$ is 7, you will typically see an average result between 5.0 and 6.0. This demonstrates that even in a worst-case scenario, the algorithm is incredibly fast compared to a linear search (which would average 50 steps).
+To test larger datasets, simply change the value of n:Set n = 1000 to see how the average steps only increase to ~9.Set n = 1000000 to see how it only takes ~19 steps to find a number in a million!“Code is the poetry of logic.”
